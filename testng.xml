@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" >
+ 
+<!-- <test name="ChromeTest"> -->
+<!--   <parameter name="browser" value="Chrome" /> -->
+<!--     <classes> -->
+<!--        <class name="loginResultXml.LoginChrome"> -->
+<!--        </class> -->
+<!--     </classes> -->
+<!--   </test> -->
+  <test name="firefox">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="merchantLogin.merchantLoginFirefox">
+       </class>
+    </classes>
+  </test>
+  
+
+<!-- <test name="SignUpTestEdge"> -->
+<!--   <parameter name="BROWSER_edge" value="edge"/> -->
+<!--   <parameter name="browser" value="edge"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUp"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+<!--   <test name="SignUpTestChrome"> -->
+<!--   <parameter name="BROWSER_chrome" value="chrome"/> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUp"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+<!-- <test name="TestSignUpNoCompEdge"> -->
+<!--   <parameter name="browser" value="edge"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUpNoComp"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="TestSignUpNoCompChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUpNoComp"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="TestSignUpNoUsernameEdge"> -->
+<!--   <parameter name="browser" value="edge"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUpNoUsername"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="TestSignUpNoUsernameChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="signUpResultXml.signUpNoUsername"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="TestSignUpNoUsernameChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="NotificationModuleXML.notificationView"/> -->
+<!--     </classes> -->
+<!--   </test>    -->
+  
+<!--   <test name="TestSearchTenderAdminChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="SearchingTender.searchTenOp1"/> -->
+<!--     </classes> -->
+<!--   </test>  -->
+  
+<!--   <test name="TestAdminChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="adminTest.addNewSubs"/> -->
+<!--     </classes> -->
+<!--   </test>  -->
+
+<!--   <test name="TestSearchSubsAdminChrome"> -->
+<!--   <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="adminTest.searchSubsOp"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+
+ 
+<!--      <test name="TestAddNewAdvAdminChrome"> -->
+<!--  <parameter name="browser" value="chrome"/>-->
+<!--  <parameter name="url" value="https://www.google.com"/>-->
+<!--    <classes>-->
+<!--      <class name="adminTest.addNewAgMis"/>-->
+<!--    </classes>-->
+<!--   </test>-->
+  
+<!--   <test name="TestAddNewTenDocAdminChrome"> -->
+<!--  <parameter name="browser" value="chrome"/> -->
+<!--   <parameter name="url" value="https://www.google.com"/> -->
+<!--     <classes> -->
+<!--       <class name="adminTest.addNewDept"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+  
+ <!--    <test name="TestAddNewTenMofAdminChrome">-->
+ <!--  <parameter name="browser" value="chrome"/>-->
+ <!--  <parameter name="url" value="https://www.google.com"/>-->
+ <!--    <classes>-->
+ <!--      <class name="adminTest.newTenAddMof"/>-->
+ <!--    </classes>-->
+ <!--  </test>-->
+  
+</suite>
+

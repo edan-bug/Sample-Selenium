@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="merchantLogin.merchantLoginFirefox">
+        <methods>
+          <include name="verfiedFirefoxLogin"/>
+        </methods>
+      </class> <!-- merchantLogin.merchantLoginFirefox -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
